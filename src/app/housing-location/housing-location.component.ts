@@ -9,7 +9,7 @@ import {HousingLocation} from '../housinglocation';
     <section class="listing">
       <img
         class="listing-photo"
-        [src]= "housingLocation.photo"
+        [src]="housingLocation.photo"
         alt="Exterior photo of {{ housingLocation.name }}"
         crossorigin
       />
